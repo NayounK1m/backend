@@ -19,8 +19,8 @@ words = []
 classes = []
 documents = []
 ignore_words = ["?", "!"]
-data_file = open("intents.json").read()
-intents = json.loads(data_file)
+with open("intents.json", encoding="utf-8") as f:
+    intents = json.load(f)
 
 # 단어
 for intent in intents["intents"]:

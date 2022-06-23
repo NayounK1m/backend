@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "greetings",
-      "patterns": [ "hi there", "hello", "haroo", "yaw", "wassup", "hi", "hey", "holla", "hello" ],
+      "patterns": [ "Hi", "hello", "haroo", "yaw", "wassup", "hi", "hey", "holla", "hello" ],
       "responses": [ "hello thanks for checking in", "hi there, how can i help you" ],
       "context": [ "" ]
     },
@@ -50,7 +50,7 @@
     },
     {
       "tag": "rentyongsan",
-      "patterns": [ "yongsan", "yongsan number","yongsa","yongs","yong" ],
+      "patterns": [ "용산", "yongsan number","yongsa","yongs","yong" ],
       "responses": [ "call: 02)2199-8012" ],
       "context": [ "" ]
     },
